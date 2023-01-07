@@ -1,0 +1,202 @@
+/* header{
+    background-image: url(../);
+} */
+.section1 {
+    display: flex;
+    background: #FFF8F3;
+    width: 100%;
+    height: 400px;
+    padding: 100px;
+}
+
+.section1 nav {
+    width: 570px;
+    height: 300px;
+    position: bottom, left;
+}
+
+.section1-title {
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.section1 div {
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: darkorange;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2 nav {
+    width: 570px;
+    height: 725px;
+    padding: 130px 0 130px 206px;
+}
+
+.page-area {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section2-title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+.section2-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 394px 320px 100px 90px;
+}
+
+.plans-section {
+    display: flex;
+    padding: 0 220px 120px 235px;
+}
+
+/* creat cection */
+
+.creat {
+    display: flex;
+    padding: 0 230px 100px 230px;
+    background-color: beige;
+}
+
+.creat nav {
+    padding-top: 50px;
+}
+
+.creat-section {
+    margin-right: 30px;
+}
+
+.creat-section h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+.creat-section p {
+    text-align: justify;
+}
+
+.plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans-section div h4 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* linear gradient */
+
+.linear-gradient {
+    text-align: center;
+    width: 1140px;
+    height: 301px;
+    background-position: center;
+    margin: 50px auto 0 auto;
+    background-image: linear-gradient(#FFF8F3, beige, width 1140px, height 301px)
+}
+
+/* footer information */
+
+.footer-info {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 577px;
+    color: aliceblue;
+    margin-top: 110px;
+    padding-right: 330px;
+}
+
+.footer-info-disc {
+    padding: 130px 330px;
+}
+
+.footer-info-disc h3 {
+    width: 148px;
+    height: 53px;
+    /* font-size: 700px; */
+
+}
+
+.footer-info-disc p {
+    width: 485px;
+    height: 80px;
+}
+
+.footer-info-disc nav a {
+    text-decoration: none;
+    width: 175px;
+    height: 46px;
+
+}
+
+.twiter-image {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-info-disc div small {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer-other-div {
+    padding: 130px 330px;
+    width: 330px;
+    height: 204px;
+}
+
+.footer-other-div h4 {
+    width: 123px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-info-btn {
+    color: red;
+    background-color: aliceblue;
+    width: 170px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    width: 175px;
+    height: 46px;
+    padding-top: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form {
+    margin-bottom: 16px;
+    width: 325px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0;
+}
