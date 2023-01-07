@@ -1,12 +1,32 @@
-/* header{
-    background-image: url(../);
-} */
-.section1 {
+header {
+    background-image: url("new-year-new-me/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 2100px;
+}
+
+
+
+.header-info {
     display: flex;
-    background: #FFF8F3;
-    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
     height: 400px;
-    padding: 100px;
+    padding: 300px;
+    text-align: end;
+}
+
+.header-info p {
+    width: 494px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #444343;
+}
+
+.header-info h1 {
+    font-size: 50px;
 }
 
 .section1 nav {
@@ -15,16 +35,7 @@
     position: bottom, left;
 }
 
-.section1-title {
-    color: black;
-    font-weight: 700;
-    font-size: 60px;
 
-}
-
-.section1 div {
-    text-align: left;
-}
 
 .btn-primary {
     background-color: darkorange;
@@ -32,7 +43,7 @@
     height: 64px;
     border-radius: 5px;
     border: 0;
-
+    font-size: large;
 }
 
 .section2 {
@@ -110,12 +121,31 @@
 /* linear gradient */
 
 .linear-gradient {
-    text-align: center;
     width: 1140px;
-    height: 301px;
+    height: 401px;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 50px auto 0 auto;
-    background-image: linear-gradient(#FFF8F3, beige, width 1140px, height 301px)
+    background-image: url("new-year-new-me/images/gradient2.png"), url("/new-year-new-me/images/watch.png")
+}
+
+.linear-gradient-text {
+    padding: 70px;
+}
+
+.linear-gradient h1 {
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.gradient-button {
+    background-color: rgb(253, 253, 253);
+    color: darkorange;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    font-size: large;
 }
 
 /* footer information */
@@ -127,7 +157,7 @@
     height: 577px;
     color: aliceblue;
     margin-top: 110px;
-    padding-right: 330px;
+    /* padding-right: 330px; */
 }
 
 .footer-info-disc {
@@ -137,7 +167,8 @@
 .footer-info-disc h3 {
     width: 148px;
     height: 53px;
-    /* font-size: 700px; */
+    font-weight: 700;
+    font-size: 45px;
 
 }
 
@@ -164,9 +195,9 @@
 }
 
 .footer-other-div {
-    padding: 130px 330px;
-    width: 330px;
-    height: 204px;
+    display: flex;
+    align-items: center;
+
 }
 
 .footer-other-div h4 {
